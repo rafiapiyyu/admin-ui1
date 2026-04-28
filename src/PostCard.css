@@ -1,8 +1,8 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  justify-items: center;
+  justify-content: space-between;
+  
 
   width: 250px;
   min-height: 200px;
@@ -59,4 +59,11 @@
 /* 🔥 HOVER BUTTON SAAT SUDAH DIKLIK */
 .card-button.clicked:hover {
   background-color:#b83016;
+}
+
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
