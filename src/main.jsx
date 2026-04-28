@@ -5,6 +5,8 @@ import App from './App.jsx'
 import Exercise from './Exercise.jsx'
 import PostCard from './PostCard.jsx'
 import Postlist from './PostList.jsx'
+import PostList from './PostList.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
