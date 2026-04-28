@@ -4,10 +4,10 @@ import './index.css'
 import App from './App.jsx'
 import Exercise from './Exercise.jsx'
 import PostCard from './PostCard.jsx'
-import Postlist from './Postlist.jsx'
+import Postlist from './PostList.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Postlist/>
+    <PostList/>
   </StrictMode>,
 )
